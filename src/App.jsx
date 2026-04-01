@@ -2,7 +2,7 @@ import { useWeather } from './hooks/useWeather';
 import SearchBar from './components/SearchBar/SearchBar';
 import WeatherCard from './components/WeatherCard/WeatherCard';
 import ErrorMessage from './components/ErrorMessage/ErrorMessage';
-import styles from './App.css'
+import styles from './App.module.css'
 
 function App () {
   const { weather, loading, error, search } = useWeather();
