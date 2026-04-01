@@ -1,0 +1,13 @@
+.wrapper {
+    background: #3d1f2a;
+    border: 1px solid #7f2d3f;
+    border-radius: 10px;
+    padding: 14px 18px;
+    text-align: center;
+}
+
+.text {
+    color: #fc8181;
+    font-size: 14px;
+    margin: 0;
+}
