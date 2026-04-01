@@ -1,0 +1,69 @@
+.card {
+    background: #2d3554;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.city {
+    font-size: 22px;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin: 0;
+}
+
+.country {
+    font-size: 13px;
+    color: #718096;
+    margin: 4px 0 16px;
+}
+
+.tempRow {
+    margin-bottom: 16px;
+}
+
+.temp {
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+
+.description {
+    font-size: 14px;
+    color: #a0aec0;
+    margin: 8px 0 0;
+    text-transform: capitalize;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #3d4a6e;
+    margin: 16px 0;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.stat {
+    background: #1a1f35;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.statLabel {
+    font-size: 11px;
+    color: #718096;
+}
+
+.statValue {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
