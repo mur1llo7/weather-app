@@ -11,7 +11,9 @@ function App () {
     <div className={styles.container}>
       <h1 className={styles.title}>Weather</h1>
 
+      <div className={styles.searchWrapper}>
       <SearchBar onSearch={search} />
+      </div>
 
       {loading && <p className={styles.loading}>Loading...</p>}
       {error && <ErrorMessage message={error} />}

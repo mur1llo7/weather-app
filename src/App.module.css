@@ -15,8 +15,41 @@
   margin-bottom: 24px;
 }
 
+.searchWrapper {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
 .loading {
   text-align: center;
   color: #718096;
   font-size: 14px;
+}
+
+/* Tablet and Up */
+
+@media (min-width: 768px) {
+  .container {
+    padding: 48px 40px;
+  }
+
+  .title {
+    font-size: 22px;
+    margin-bottom: 32px;
+  }
+
+  .searchWrapper {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+    padding: 64px 48px;
+  }
 }
