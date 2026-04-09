@@ -18,3 +18,11 @@ src/
   components/   UI components (SearchBar, WeatherCard, ErrorMessage)
   hooks/        Custom React hooks (useWeather) 
   services/     API layer (weatherApi.js)
+
+## Weather App Screenshot
+![Weather App Screenshot](./public/Phone%20Responsive%20Layout.png)
+![Weather App Screenshot](./public/City%20Search.png)
+![Weather App Screenshot](./public/Error%20State.png)
+![Weather App Screenshot](./public/Tablet%20Layout.png)
+![Weather App Screenshot](./public/Desktop%20Layout.png)
+
