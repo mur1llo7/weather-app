@@ -2,7 +2,7 @@
 
 Search any city and get real-time weather conditions.
 
-**Live Demo:** https://weather-o0xlit76g-mur1llo7s-projects.vercel.app/
+**Live Demo:** https://weather-app-azure-ten-43.vercel.app/
 
 ## Tech stack
 React · Vite · OpenWeatherMap API · CSS Modules · Vercel
